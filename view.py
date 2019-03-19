@@ -1,3 +1,10 @@
+"""/*
+ * @Author: Pierre Loneux 
+ * @Date: 2019-03-19 19:40:16 
+ * @Last Modified by:   Pierre Loneux 
+ * @Last Modified time: 2019-03-19 19:40:16 
+ */"""
+
 from tkinter import StringVar, Label, Button, N, S, E, W, font
 from model import Model
 from controller import Controller

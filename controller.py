@@ -1,3 +1,10 @@
+"""/*
+ * @Author: Pierre Loneux 
+ * @Date: 2019-03-19 19:40:36 
+ * @Last Modified by:   Pierre Loneux 
+ * @Last Modified time: 2019-03-19 19:40:36 
+ */"""
+
 class Controller:
     numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     operators = ["+", "-", "*", "/"]

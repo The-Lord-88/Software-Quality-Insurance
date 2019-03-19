@@ -1,6 +1,12 @@
+"""/*
+ * @Author: Pierre Loneux 
+ * @Date: 2019-03-19 19:41:31 
+ * @Last Modified by:   Pierre Loneux 
+ * @Last Modified time: 2019-03-19 19:41:31 
+ */"""
+
 from tkinter import Tk, font
 from view import View
-
 
 root = Tk()
 default_font = font.nametofont("TkDefaultFont")

@@ -52,19 +52,22 @@ class Controller:
             self.model.display = self.operand2
 
     def addition(self):
-        self.operand1 = str(float(self.operand1) + float(self.operand2)).rstrip('0').rstrip('.')
+        self.operand1 = str(float(self.operand1) 
+                        + float(self.operand2)).rstrip('0').rstrip('.')
         self.operand2 = ""
         self.operator = ""
         self.model.display = self.operand1
 
     def substraction(self):
-        self.operand1 = str(float(self.operand1) - float(self.operand2)).rstrip('0').rstrip('.')
+        self.operand1 = str(float(self.operand1)
+                        - float(self.operand2)).rstrip('0').rstrip('.')
         self.operand2 = ""
         self.operator = ""
         self.model.display = self.operand1
 
     def multiplication(self):
-        self.operand1 = str(float(self.operand1) * float(self.operand2)).rstrip('0').rstrip('.')
+        self.operand1 = str(float(self.operand1)
+                        * float(self.operand2)).rstrip('0').rstrip('.')
         self.operand2 = ""
         self.operator = ""
         self.model.display = self.operand1
@@ -74,7 +77,8 @@ class Controller:
         if self.operand2 == "0":
             self.operand1 = "Division by 0"
         else:
-            self.operand1 = str(float(self.operand1) / float(self.operand2)).rstrip('0').rstrip('.')
+            self.operand1 = str(float(self.operand1)
+                            / float(self.operand2)).rstrip('0').rstrip('.')
         self.operand2 = ""
         self.operator = ""
         self.model.display = self.operand1
